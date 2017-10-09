@@ -1,26 +1,5 @@
 
 /* ==========================================================================
-  Site Loader
-============================================================================= */
-// .site-loader {
-//   position: fixed;
-//   left: 0;
-//   top: 0;
-//   width: 100%;
-//   height: 100%;
-//   z-index: 9999;
-//   background-color: #fff;
-//   background-image: url("../img/preload.gif");
-//   background-position: 50%;
-//   background-repeat: no-repeat;
-// }
-// @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2/1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-//   .site-loader {
-//     background-image: url("../img/preload@2x.gif");
-//     background-size: 32px 32px;
-//   }
-// }
-/* ==========================================================================
   Responsive Image
 ============================================================================= */
 img {
@@ -3840,14 +3819,7 @@ textarea {
     padding-left: 40px;
     padding-top: 0;
   }
-  /* ==========================================================================
-    Pricing
-  ============================================================================= */
-  .pricing-table.featured {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    margin-top: -20px;
-  }
+
   /* ==========================================================================
      Counter
   ============================================================================= */
