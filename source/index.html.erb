@@ -1,15 +1,600 @@
----
-title: Le Wagon - Middleman
----
+<!DOCTYPE html>
+<html lang="fr">
 
-<div id="home">
-  <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
-    <p>
-      Middleman is now running!
-    </p>
-    <p class="about">
-      <%= link_to "More about this template", "about.html" %>
-    </p>
+<head>
+
+
+
+<!-- Fonts -->
+<link rel="stylesheet" href="assets/fonts/novecento/stylesheet.css">
+<link rel="stylesheet" href="assets/icons/glyphicons/style.min.css">
+<link rel="stylesheet" href="assets/icons/font-awesome/font-awesome.min.css">
+
+<!-- Styles -->
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.min.css">
+<link rel="stylesheet" href="assets/css/theme-light.css">
+<link rel="stylesheet" href="assets/css/theme-dark.css">
+
+<!-- Plugins -->
+
+
+</head>
+
+<body>
+
+<div class="site-loader"></div>
+
+<header class="site-header">
+
+  <div class="header-inner">
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="header-table col-md-12">
+
+          <div class="header-col brand">
+            <a href="index.html">
+              <img src="assets/img/LogoKaizenConseil.png" alt="Logo de Kaizen Conseil">
+            </a>
+          </div>
+
+          <nav class="header-col main-nav">
+            <a href="#" class="nav-toggle"></a>
+            <ul class="nav">
+              <li><a href="#home">Accueil</a></li>
+              <li><a href="#about">Kaizen Conseil</a></li>
+              <li><a href="#pricing">Les filiales</a></li>
+              <li><a href="#services">Recrutement</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
+
+</header>
+
+
+<section id="home" class="site-splash fullscreen">
+
+  <div class="splash-inner">
+
+    <div class="splash-slider">
+
+      <div class="splash-content"><div class="container">
+
+          <div class="row">
+
+            <div class="col-md-12">
+
+              <div class="splash-text">
+                <a class="smoothscroll" href="#about"><img class="background-kaizen" src="demo/kaizen/logo-kaizen-index.png" alt="Logo Kaizen Expertise">
+                </a>
+                <a href="#about"><p class="debut">Globalité <span class="point">•</span> <span>Fluidité</span> <span class="point">•</span> Expertise</p></a>
+                <div class="splash-description">
+                  <p>Une vision à 360° degré de vos projets</p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+      </div></div>
+
+    </div>
+
+    <div class="splash-media"
+      data-background="demo/kaizen/backgroung-kaizen2.jpg" >
+      <div class="overlay"></div>
+    </div>
+
+    <div class="splash-feedback">
+      <a href="#about"><span class="mouse">
+        <span class="fa fa-angle-down"></span>
+      </span>
+      </a>
+    </div>
+
+  </div>
+
+</section>
+
+<div class="site-wrapper">
+
+          <!--<div class="carrecouleur"></div>-->
+
+
+  <div class="site-body">
+
+
+    <div id="about" class="section-row">
+    </div>
+
+
+    <section class="section">
+
+      <div class="section-row-container">
+
+        <div class="section-row">
+
+          <div class="container">
+
+<!--            <div class="row">
+
+              <div class="col-lg-3">
+
+                <h1 class="section-title">
+                  Qui sommes-nous ?
+                </h1>
+
+              </div>
+
+              <div class="col-lg-8 col-lg-push-1">
+
+                <div class="row">
+
+                  <div class="col-md-12">
+
+                    <p class="lead">
+                      Kaizen Conseil est un groupe de sociétés dans le domaine du conseil à destination des entrepreneurs : créateur d'entreprise, dirigeant de TPE/PME et professionnel libéral.<br>
+
+                      Kaizen Conseil regroupe plusieurs filiales : une société d'expertise comptable, une société de conseil en stratégie et finance d'entreprise ainsi qu’une société de conseil en stratégie et ingénierie patrimoniales.
+
+                      Cette organisation nous permet d’adopter une approche globale de vos besoins.<br>
+
+                      En tant que client, vous êtes suivi par un chargé d'affaire de Kaizen Conseil qui centralise vos demandes et s'appuie ensuite sur les équipes spécialisées des différentes filiales.
+
+                      La vision à 360° de votre projet lui permet d'être proactif et d'anticiper vos problématiques.<br>
+
+                      La société Kaizen Conseil a été créée par <a class="icone-smo2" href="https://www.linkedin.com/in/jonathancohenkaizenconseil" target="_blank">Jonathan Cohen</a> afin d'offrir un service global, fluide et spécialisé pour les entrepreneurs.
+                    </p>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div> -->
+
+            <div class="row">
+
+              <div class="col-lg-12">
+
+                <h1 class="section-title">
+                  Qui sommes-nous ?
+                </h1>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-12">
+
+                <p class="lead3">
+                  Kaizen Conseil est un groupe de sociétés dans le domaine du conseil à destination des entrepreneurs : créateur d'entreprise, dirigeant de TPE/PME et professionnel libéral.<br>
+
+                  Kaizen Conseil propose à travers ses filiales, différents services : expertise comptable, commissariat aux comptes, ingénierie financière, levée de fonds, gestion de patrimoine, domiciliation, coworking...<br>
+
+                  En tant que client, vous êtes suivi par un chargé d'affaire de Kaizen Conseil qui centralise vos demandes et s'appuie ensuite sur les équipes spécialisées des différentes structures du groupe.
+
+                  Cette organisation nous permet d’adopter une approche globale de vos besoins.<br>
+
+                  La vision à 360° de votre projet lui permet d'être proactif et d'anticiper vos problématiques.<br>
+
+                  Le Groupe Kaizen Conseil a été créée par <a class="icone-smo2" href="https://www.linkedin.com/in/jonathancohenkaizenconseil" target="_blank">Jonathan Cohen</a> afin d'offrir un service global, fluide et spécialisé pour les entrepreneurs.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+    <section id="pricing" class="section">
+
+      <div class="section-row-container">
+
+        <div class="section-row">
+
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-12">
+
+                <h1 class="section-title">
+                  Les filiales
+                </h1>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+
+              <div class="col-md-4">
+
+                <div class="pricing-table featured" data-animation-name="flipInY">
+                  <div class="image-filiale">
+                    <img src="assets/img/LogoKaizenFinance.png" alt="Kaizen Finance">
+                  </div>
+                  <div class="features">
+                    <p class="filiale2">Kaizen Finance est une société de conseil en stratégie et finance d'entreprise offrant à ses clients entrepreneurs, des prestations à forte valeur ajoutée : levée de fonds, recherche de financement bancaire, fusion, acquisition, cession d'entreprise, accompagnement d'entreprise en difficulté.
+                    </p>
+                  </div>
+                  <a href="http://www.kaizenfinance.fr" target="_blank" class="btn btn-sm btn-primary btn-block filiale5">Aller sur le site</a>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+
+                <div class="pricing-table" data-animation-name="flipInY">
+                  <div class="image-filiale">
+                    <img src="assets/img/LogoKaizenExpertise.png" alt="Kaizen Expertise">
+                  </div>
+                  <div class="features">
+                    <p class="filiale1">Société d'expertise comptable membre de l'Ordre des Experts-Comptables, Kaizen Expertise simplifie le quotidien des entrepreneurs en proposant une solution de gestion financière, comptable, juridique, fiscale et sociale, tant pour les créateurs d'entreprise que pour les TPE/PME et professions libérales.
+                    </p>
+                  </div>
+                  <a href="http://kaizenexpertise.fr/" target="_blank" class="btn btn-sm btn-primary btn-block filiale4">Aller sur le site</a>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+
+                <div class="pricing-table" data-animation-name="flipInY">
+                  <div class="image-filiale">
+                    <img src="assets/img/LogoKaizenPatrimoine.png" alt="Kaizen Patrimoine">
+                  </div>
+                  <div class="features">
+                    <p class="filiale3">Société de conseil en stratégie et ingénierie patrimoniales, Kaizen Patrimoine accompagne ses clients dans la gestion de leur patrimoine privé : conseil en investissements financiers, gestion d'actifs, conseil en retraite et prévoyance, conseil en défiscalisation, conseil en transmission et organisation du patrimoine.
+
+                    </p>
+                  </div>
+                  <a href="http://kaizenpatrimoine.fr" target="_blank" class="btn btn-sm btn-primary btn-block filiale6">Aller sur le site</a>
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="row">
+
+
+              <div class="col-md-4">
+
+                <div class="pricing-table featured" data-animation-name="flipInY">
+                  <div class="image-filiale">
+                    <img src="assets/img/LogoKaizenAudit.png" alt="Kaizen Audit">
+                  </div>
+                  <div class="features">
+                    <p class="filiale2">Kaizen Audit, société de commissariat aux comptes inscrite sur la liste de la Cour d'appel de Paris est la structure à l'audit légal et aux missions exceptionnelles : commissaire aux apports, à la fusion, aux avantages particuliers, à la transformation.
+                    </p>
+                  </div>
+                  <a href="http://kaizenaudit.fr" target="_blank" class="btn btn-sm btn-primary btn-block filiale5">Aller sur le site</a>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+
+                <div class="pricing-table" data-animation-name="flipInY">
+                  <div class="image-filiale">
+                    <img src="assets/img/LogoKaizenStartup.png" alt="Kaizen Startup">
+                  </div>
+                  <div class="features">
+                    <p class="filiale1">Offre dédiée aux startupers et axée sur 3 services : le coaching financier, l'accompagnement à la levée de fonds et la mise en place d'une direction financière externalisée.
+                    </p>
+                  </div>
+                  <a href="http://kaizenstartup.fr/" target="_blank" class="btn btn-sm btn-primary btn-block filiale4">Aller sur le site</a>
+                </div>
+
+              </div>
+
+              <div class="col-md-4">
+
+                <div class="pricing-table" data-animation-name="flipInY">
+                  <div class="image-filiale">
+                    <img src="assets/img/LogoKaizenCoworking.png" alt="Kaizen Coworking">
+                  </div>
+                  <div class="features">
+                    <p class="filiale3">Société de conseil en stratégie et ingénierie patrimoniales, Kaizen Patrimoine accompagne ses clients dans la gestion de leur patrimoine privé : conseil en investissements financiers, gestion d'actifs, conseil en retraite et prévoyance, conseil en défiscalisation, conseil en transmission et organisation du patrimoine.
+
+                    </p>
+                  </div>
+                  <a href="http://kaizencoworking.fr" target="_blank" class="btn btn-sm btn-primary btn-block filiale6">Aller sur le site</a>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <br><br>
+
+    <section id="services" class="section">
+
+      <div class="section-row-container">
+
+        <div class="section-row">
+
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-12">
+
+                <h1 class="section-title">
+                  Recrutement
+
+                </h1>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-12">
+
+                <p class="lead3">
+                  Vous êtes passionné(e) par l'entrepreneuriat, curieux, rigoureux ? Vous avez un parcours scolaire "classique" ou "atypique" ? <br>Kaizen Conseil recrute différents profils afin d'accompagner le développement du groupe : chargé d'affaires, collaborateur technique en finance, expertise comptable, gestion de patrimoine... <br>N'hésitez pas à nous envoyer votre CV à l'adresse suivante : <a href="mailto:recrutement@kaizenconseil.fr">recrutement@kaizenconseil.fr</a>. <br>
+                  Nous croyons fortement que la diversité des profils est le facteur essentiel dans la réussite de notre projet, rejoignez-nous !
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="contact" class="section">
+
+      <div class="section-row-container">
+
+        <div class="section-row half-padding-bottom">
+
+          <div class="container">
+
+            <div class="row">
+
+              <div class="col-lg-12">
+
+                <h1 class="section-title">
+                  Contact
+                  <small>Vous avez des questions, des remarques, des suggestions ? Vous souhaitez nous rencontrer ? <br>N'hésitez pas à nous envoyer un message, nous serions ravis de vous recevoir dans nos locaux. </small>
+                </h1>
+
+              </div>
+
+            </div>
+
+            <div class="row">
+
+              <div class="col-md-8">
+
+                <form method="post" class="form-horizontal contact-form" action="php/contact/contact.php">
+
+                  <!-- Honeypot SPAM Protection -->
+                  <input type="text" name="cf[honeypot]" style="display: none">
+                  <!-- END Honeypot SPAM Protection -->
+
+                  <div class="form-group">
+                    <div class="col-md-7">
+                      <input type="text" name="cf[name]" class="form-control required" placeholder="Nom">
+                    </div>
+                    <div class="col-md-7">
+                      <input type="email" name="cf[email]" class="form-control required email" placeholder="E-mail">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-7">
+                      <input type="url" name="cf[url]" class="form-control url" placeholder="URL">
+                    </div>
+                    <div class="col-md-7">
+                      <input type="text" name="cf[subject]" class="form-control required" placeholder="Sujet">
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <textarea name="cf[message]" rows="6" class="form-control required" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <div class="col-md-12">
+                      <input type="submit" value="Envoyer" class="btn btn-sm btn-block btn-primary">
+                    </div>
+                  </div>
+                </form>
+
+              </div>
+
+              <div class="col-md-4">
+
+                <aside class="sidebar">
+
+                  <div class="sidebar-block">
+                    <p class="contacts">
+                      <span class="contacts12">Adresse</span>
+                    </p>
+
+                    <p class="contacts123">
+                      8, rue du Delta<br>
+                      75009 Paris<br>
+                    </p>
+                  </div>
+
+                  <div class="sidebar-block">
+                    <p class="contacts11">
+                      <span class="contacts12">E-mail</span>
+                    </p>
+
+                    <p class="contacts1">
+                      <a href="mailto:contact@kaizenconseil.fr">contact@kaizenconseil.fr</a>
+                    </p>
+
+<!--                    <p class="contacts11"> -->
+<!--                      <span class="contacts12">Tel</span> -->
+<!--                    </p> -->
+<!--  -->
+<!--                    <p class="contacts1"> -->
+<!--                      06.73.59.77.79<br>Du lundi au vendredi de 9h à 19h -->
+<!--                    </p> -->
+                  </div>
+
+                </aside>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+    <br><br>
+
+  </div>
+
+  <footer class="site-footer">
+
+    <!-- <div class="footer-widgets">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-4">
+            <h5 class="widget-title">About Hydrogen</h5>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h5 class="widget-title">About Hydrogen</h5>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+          <div class="col-md-4">
+            <h5 class="widget-title">About Hydrogen</h5>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> -->
+
+    <div class="footer-bottom">
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-md-12">
+
+            <div class="footer-text">
+              2017 © Kaizen Conseil. Tous droits réservés. <br/>
+              <a class="mentions" href="mentionslegales.html">Mentions Légales</a>
+            </div>
+
+            <div class="social-list">
+              <ul>
+                <li><a href="https://www.facebook.com/kaizenconseil.fr" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com/MrCohenJonathan" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/jonathancohenkaizenconseil" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+              </ul>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
 </div>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55691695-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+<script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="assets/js/hydrogen.setup.min.js"></script>
+<script type="text/javascript" src="assets/js/hydrogen.scripts.min.js"></script>
+<script type="text/javascript" src="assets/js/hydrogen.plugins.js"></script>
+
+<script type="text/javascript" src="assets/plugins/royalslider/jquery.royalslider.min.js"></script>
+<script type="text/javascript" src="assets/plugins/mfp/jquery.mfp-0.9.9.min.js"></script>
+<script type="text/javascript" src="assets/plugins/mediaelement/mediaelement-and-player.min.js"></script>
+<script type="text/javascript" src="assets/plugins/gmap/gmap3.min.js"></script>
+<script type="text/javascript" src="assets/plugins/owlcarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="assets/plugins/isotope/jquery.isotope.min.js"></script>
+<script type="text/javascript" src="assets/plugins/form/jquery.form.min.js"></script>
+<script type="text/javascript" src="assets/plugins/form/jquery.validate.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    $('a[href^="#about"]').click(function(){
+        var the_id = $(this).attr("href");
+
+        $('html, body').animate({
+            scrollTop:$(the_id).offset().top
+        }, 'slow');
+        return false;
+    });
+</script>
+
+
+</body>
+
+</html>
