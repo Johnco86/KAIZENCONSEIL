@@ -29,13 +29,14 @@
 
 <link rel="shortcut icon" href="demo/kaizen/favicon.png">
 
-
 <title>Groupe Kaizen Conseil - Services pour entrepreneur - startup</title>
     <%= stylesheet_link_tag "application" %>
     <%= javascript_include_tag "application" %>
   </head>
   <body>
+    <% if current_page.path != "legal.html" %>
     <%= partial "layouts/navbar" %>
+    <% end %>
     <%= yield %>
     <%= partial "layouts/footer" %>
   </body>
