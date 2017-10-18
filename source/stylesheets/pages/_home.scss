@@ -880,14 +880,6 @@ p.contacts123 {
     z-index: 222;
   }
 }
-
-.tab-widget {
-  margin-bottom: 30px
-}
-.tab-widget .tab-content {
-  padding-top: 15px
-}
-
 .btn, .btn-default, .btn-primary, .btn-success, .btn-info, .btn-warning, .btn-danger {
   text-shadow: none;
   border: 0;
@@ -903,14 +895,6 @@ p.contacts123 {
 .btn:hover, .btn-default:hover, .btn-primary:hover, .btn-success:hover, .btn-info:hover, .btn-warning:hover, .btn-danger:hover {
   background-color: #000;
   color: #fff
-}
-.progress {
-  height: 12px;
-  margin-bottom: 15px
-}
-.progress, .progress .progress-bar {
-  line-height: 12px;
-  box-shadow: none
 }
 .form-control {
   font-weight: 300;
@@ -2113,15 +2097,7 @@ ul.check-list li:before {
   padding-bottom: 28.125%;
 }
 
-/* ==========================================================================
-  Tab Widget
-============================================================================= */
-.tab-widget {
-  margin-bottom: 30px;
-}
-.tab-widget .tab-content {
-  padding-top: 15px;
-}
+
 /* ==========================================================================
   Accordions & Toggles
 ============================================================================= */
@@ -2190,38 +2166,6 @@ textarea {
 }
 
 
-@-webkit-keyframes buffering-stripes {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 30px 0;
-  }
-}
-@-moz-keyframes buffering-stripes {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 30px 0;
-  }
-}
-@-ms-keyframes buffering-stripes {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 30px 0;
-  }
-}
-@keyframes buffering-stripes {
-  from {
-    background-position: 0 0;
-  }
-  to {
-    background-position: 30px 0;
-  }
-}
 /* ==========================================================================
   Media Queries
 ============================================================================= */
