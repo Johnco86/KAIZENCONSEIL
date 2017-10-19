@@ -17,11 +17,18 @@
           <nav class="header-col main-nav">
             <a href="#" class="nav-toggle"></a>
             <ul class="nav">
-              <li><a href="#home">Accueil</a></li>
-              <li><a href="#about">Kaizen Conseil</a></li>
-              <li><a href="#pricing">Les filiales</a></li>
-              <li><a href="#services">Recrutement</a></li>
-              <li><a href="#contact">Contact</a></li>
+              <% if current_page.path == "legal.html" %>
+              <% prefix = "index.html" %>
+              <% else %>
+              <% prefix = "" %>
+              <% end %>
+
+              <li><%= link_to "Accueil", "#{prefix}#home" %></li>
+              <li><%= link_to "Kaizen Conseil", "#{prefix}#about" %></li>
+              <li><%= link_to "Les filiales", "#{prefix}#pricing" %></li>
+              <li><%= link_to "Recrutement", "#{prefix}#services" %></li>
+              <li><%= link_to "Contact", "#{prefix}#contact" %></li>
+
             </ul>
           </nav>
 
